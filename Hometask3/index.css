@@ -1,0 +1,113 @@
+body{
+    font-family: Verdana;
+    display: flex;
+    flex-direction: column;
+}
+#conteiner_1{
+    height: 100px;
+    width: 500px;
+    border: 1.5px solid lightgray;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#conteiner_2{
+    height: 700px;
+    width: 1500px;
+    border: 1.5px solid lightgray;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+#conteiner_3{
+    height: 60px;
+    width: 500px;
+    border: 1.5px solid lightgray;
+    margin-top: 10px;
+    background-color: rgb(72, 72, 255);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#conteiner_4{
+    height: 100px;
+    width: 500px;
+    border: 1.5px solid lightgray;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.block_conteiner_1{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    background-color: rgb(83, 83, 255);
+}
+.two{
+    background-color: rgb(255, 47, 47);
+}
+.three{
+    background-color: rgb(92, 255, 92);
+}
+.block_num{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#header{
+    background-color: rgb(134, 0, 175);
+    height: 150px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_conteiner_2{
+    background-color: aqua;
+    height: 510px;
+    padding: 10px;
+}
+.block_one{
+    width: 26%;
+}
+.block_two{
+    width: 26%;
+}
+.block_three{
+    width: 41%;
+}
+.block_conteiner_2 span{
+    font-size: 20px;
+}
+#block_button{
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    align-content: space-around;
+    justify-content: space-around;
+}
+button{
+    width: 22.5%;
+    height: 35px;
+    font-size: 20px;
+}
+#block_button button:last-child{
+    width: 97%;
+}
